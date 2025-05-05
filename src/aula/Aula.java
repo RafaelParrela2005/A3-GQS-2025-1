@@ -102,7 +102,8 @@ public class Aula {
                     System.out.println("O numero da sua agencia é: "+c2.getAgencia().getNumero());
                 }
                 break;
-        }        
+        }
+
     }    
     
 }

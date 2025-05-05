@@ -22,10 +22,10 @@ public class ContaPoupanca extends Conta{
     }
     
     public double getRendimento(){
-        
+        return this.rendimento;
     }
     
     public void setRendimento(double rendimento){
-        
+        this.rendimento = rendimento;
     }    
 }

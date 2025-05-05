@@ -17,10 +17,12 @@ public class PessoaFisica extends Pessoa{
         this.cpf = cpf;
     }
     public int getCpf(){
-        return t;;
+        return this.cpf;
     }
     
     public void setCpf(int cpf){
         this.cpf = cpf;
     }
 }
+
+//getter e setter do rendimento estavam vazios (ContaPoupança.java); getCpf estava escrito errado (PessoaFisica.java);
