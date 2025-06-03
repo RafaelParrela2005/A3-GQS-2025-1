@@ -6,6 +6,14 @@ package aula;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
+import Agencia.java;
+import Conta.java;
+import ContaCorrente.java;
+import ContaPoupanca.java;
+import OperacaoBancaria.java;
+import Pessoa.java;
+import PessoaFisica.java;
+import PessoaJuridica.java;
 
 public class Aula {
     public static void main(String[] args) {
