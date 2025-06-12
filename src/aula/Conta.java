@@ -36,13 +36,13 @@ public abstract class Conta implements OperacaoBancaria {
     @Override
     public double sacar(double valor){
         if (valor <= 0) {
-            return -1; // valor inválido
+            return -1;
         }
         if (this.saldo >= valor) {
             this.saldo -= valor;
-            return this.saldo; // saldo atualizado após saque
+            return this.saldo;
         }
-        return -1; // saldo insuficiente
+        return -1;
     }
     
     public int getNumero(){
